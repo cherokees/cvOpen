@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    
+}
+
+h3{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    background-color: antiquewhite;
+}
+
+section{
+    display: flex;
+    margin-left: 400px;
+    flex-direction: column
+    
+}
+
+.container{
+    width: 800px;
+    display: flex;    
+}
+
+h4{
+    background-color: lightskyblue;
+    margin-left: -40px;
+    text-align: center;
+    width: 350px;
+    
+}
+
+ol.a{
+    width: 220px;
+    margin-left: 100px;
+}
+
+ul{
+    line-height: 4;
+}
+
+p{
+    line-height: 2;
+    padding-top: 5px;
+}
+
+.liseret{
+    outline-style: solid;
+    
+}
+
+.lord_boros{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 60px;
+    margin-top: 50px 
+}
+
+.icones{
+    letter-spacing: 20px;
+}
+
+ol{
+    color: aqua;
+}
+
+.a{
+/*    color: red;*/
+}
