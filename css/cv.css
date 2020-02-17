@@ -3,12 +3,28 @@ h1{
     
 }
 
+h2{
+    margin-left: -30px;
+}
+
+h2 i{
+    padding-right: 25px;
+    font-size: 35px;
+}
+
 h3{
     text-align: left;
     display: flex;
     flex-direction: column;
 }
 
+nav h2{
+    background-color: aqua;
+    margin-left: -30px;
+    width: 380px;
+    text-align: center;
+}
+ 
 body {
     display: flex;
     margin: 0px;
@@ -23,11 +39,22 @@ header{
     background-color: antiquewhite;
 }
 
+.icones{
+    letter-spacing: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+nav p{
+    margin-left: 50px;
+    line-height: 2;
+    padding-top: 5px;
+}
+
 section{
     display: flex;
     margin-left: 400px;
-    flex-direction: column
-    
+    flex-direction: column    
 }
 
 .container{
@@ -35,31 +62,92 @@ section{
     display: flex;    
 }
 
-h4{
-    background-color: lightskyblue;
-    margin-left: -40px;
-    text-align: center;
-    width: 350px;
-    
-}
-
-ol.a{
-    width: 220px;
+.container-niv{
     margin-left: 100px;
 }
 
-ul{
-    line-height: 4;
+.date-niv1{
+    margin-top: 60px;
 }
 
-p{
-    line-height: 2;
-    padding-top: 5px;
+.date-niv2{
+    margin-top: 80px;
 }
 
+.niv1{
+    margin-top: 60px;
+}
+
+.niv2{
+    margin-top: 80px;
+}
+
+.container-niv {
+    line-height: 10px;
+}
+
+.date-niv1 i{
+    padding-right: 5px;
+    margin-left: -20px;
+}
+
+.date-niv2 i{
+    padding-right: 5px;
+    margin-left: -20px;
+}
+
+.container-exp{
+    margin-left: 100px;
+}
+
+.container-exp p{
+    margin-top: -15px;
+}
+
+.expPro1{
+    margin-top: 55px ;
+}
+
+.expPro2{
+    margin-top: 55px;
+}
+
+.expPro3{
+    margin-top: 50px;
+}
+
+.expPro4{
+    margin-top: 55px;
+}
+
+.date{
+    width: 120px;
+}
+
+.date i{
+    padding-right: 5px;
+    margin-left: -20px;
+}
+
+.date-exp1{
+    margin-top: 60px;
+}
+
+.date-exp2{
+    margin-top: 80px;
+}
+
+.date-exp3{
+    margin-top: 75px;
+}
+
+.date-exp4{
+    margin-top: 85px;
+}
 .liseret{
     outline-style: solid;
-    
+    color: antiquewhite;
+    margin-left: -30px;   
 }
 
 .lord_boros{
@@ -70,14 +158,100 @@ p{
     margin-top: 50px 
 }
 
-.icones{
-    letter-spacing: 20px;
+.rcmd2{
+    margin-left: 50px;
 }
 
-ol{
-    color: aqua;
-}
+@media screen and (max-width:1100px){
+    body {
+        display: flex;
+       flex-direction: column; 
+    }
 
-.a{
-/*    color: red;*/
-}
+
+    .nav{
+        display: flex;
+        width: auto;
+    }
+
+    .contact p{
+        line-height: 15px;
+        font-size: 20px;
+    }
+
+    .propos{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+
+    .icones{
+        font-size: 40px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .nav h2{
+        width: auto;
+    }
+
+    a{
+        display: none;
+    }
+
+    .nav p{
+        text-align: left;
+        margin-left: auto;
+        padding-top: 0px;
+        width: auto;
+    }
+
+    header {
+        height: 250px;
+        width: 100%;
+        display: flex;
+    }
+    section{
+        margin-top: 25%;
+        width: auto;
+        margin-left: 4%;
+    }
+
+    .container-niv p{
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .container-niv h3{
+        font-size: 40px;
+    }
+
+    .date-niv p{
+        font-size: 20px;
+    }
+
+    .date-niv i{
+        padding-right: 25px;
+    }
+
+    .date{
+        font-size: 20px;
+    }
+
+    .date p{
+        font-size: 40px;
+    }
+
+    .container-exp h3{
+        font-size: 40px;
+    }
+
+    .container h3{
+        font-size: 40px;
+    }
