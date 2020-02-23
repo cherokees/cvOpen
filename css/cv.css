@@ -10,6 +10,7 @@ h2{
 h2 i{
     padding-right: 25px;
     font-size: 35px;
+    color: antiquewhite;
 }
 
 h3{
@@ -41,9 +42,15 @@ header{
 }
 
 .icones{
-    letter-spacing: 20px;
     text-align: center;
     font-size: 50px;
+}
+
+.icones i{
+    border-radius: 50%;
+    border:solid black 2px;
+    margin: 10px;
+    padding: 10px;
 }
 
 nav p{
@@ -63,8 +70,28 @@ section{
     display: flex;    
 }
 
-.container-niv{
-    margin-left: 100px;
+.icone-niv {
+    display:flex ;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.icone-niv1{
+    margin-top: 60px;
+    font-size: 5px;
+    border-radius: 50%;
+    border: antiquewhite 2px solid;
+    padding: 5px;
+    color: antiquewhite;
+}
+
+.icone-niv2{
+    margin-top: 100px;
+    color: antiquewhite;
+}
+
+.date-niv{
+    width: 100px;
 }
 
 .date-niv1{
@@ -75,26 +102,17 @@ section{
     margin-top: 80px;
 }
 
+.container-niv{
+    margin-left: 100px;
+    line-height: 10px;
+}
+
 .niv1{
     margin-top: 60px;
 }
 
 .niv2{
     margin-top: 80px;
-}
-
-.container-niv {
-    line-height: 10px;
-}
-
-.date-niv1 i{
-    padding-right: 5px;
-    margin-left: -20px;
-}
-
-.date-niv2 i{
-    padding-right: 5px;
-    margin-left: -20px;
 }
 
 .container-exp{
@@ -123,11 +141,6 @@ section{
 
 .date{
     width: 120px;
-}
-
-.date i{
-    padding-right: 5px;
-    margin-left: -20px;
 }
 
 .date-exp1{
@@ -235,10 +248,6 @@ section{
 
     .date-niv p{
         font-size: 20px;
-    }
-
-    .date-niv i{
-        padding-right: 25px;
     }
 
     .date{
