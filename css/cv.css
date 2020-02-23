@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    font-size: 30px;
     
 }
 
@@ -17,9 +18,14 @@ h3{
     text-align: left;
     display: flex;
     flex-direction: column;
+    font-size: 25px;
 }
 
-nav h2{
+.place{
+    font-size: large;
+}
+
+.nav h2{
     background-color: rgb(255, 0, 242);
     margin-left: -30px;
     width: 380px;
@@ -33,11 +39,11 @@ body {
     padding: 0px;
 }
 
-header{
+.nav{
+    flex-direction: column;
     display: flex;
     height: 100%;
     width: 350px;
-    position: fixed;
     background-color: antiquewhite;
 }
 
@@ -61,7 +67,7 @@ nav p{
 
 section{
     display: flex;
-    margin-left: 400px;
+    margin-left: 100px;
     flex-direction: column    
 }
 
@@ -86,7 +92,7 @@ section{
 }
 
 .icone-niv2{
-    margin-top: 100px;
+    margin-top: 180px;
     color: antiquewhite;
 }
 
@@ -99,12 +105,11 @@ section{
 }
 
 .date-niv2{
-    margin-top: 80px;
+    margin-top: 160px;
 }
 
 .container-niv{
     margin-left: 100px;
-    line-height: 10px;
 }
 
 .niv1{
@@ -130,15 +135,15 @@ section{
 }
 
 .icone-exp2{
-    margin-top: 100px;
+    margin-top: 155px;
 }
 
 .icone-exp3{
-    margin-top: 90px;
+    margin-top: 155px;
 }
 
 .icone-exp4{
-    margin-top: 105px;
+    margin-top: 165px;
 }
 
 .date{
@@ -150,23 +155,19 @@ section{
 }
 
 .date-exp2{
-    margin-top: 80px;
+    margin-top: 135px;
 }
 
 .date-exp3{
-    margin-top: 75px;
+    margin-top: 135px;
 }
 
 .date-exp4{
-    margin-top: 85px;
+    margin-top: 150px;
 }
 
 .container-exp{
     margin-left: 100px;
-}
-
-.container-exp p{
-    margin-top: -15px;
 }
 
 .expPro1{
