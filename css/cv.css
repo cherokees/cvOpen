@@ -19,10 +19,11 @@ h3{
 }
 
 nav h2{
-    background-color: aqua;
+    background-color: rgb(255, 0, 242);
     margin-left: -30px;
     width: 380px;
     text-align: center;
+    color: antiquewhite;
 }
  
 body {
