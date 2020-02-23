@@ -115,6 +115,52 @@ section{
     margin-top: 80px;
 }
 
+.icone-exp{
+    margin-right: 30px;
+    color: antiquewhite;
+}
+
+.icone-exp1{
+    margin-top: 60px;
+    font-size: 5px;
+    border-radius: 50%;
+    border: antiquewhite 2px solid;
+    padding: 5px;
+    color: antiquewhite;
+}
+
+.icone-exp2{
+    margin-top: 100px;
+}
+
+.icone-exp3{
+    margin-top: 90px;
+}
+
+.icone-exp4{
+    margin-top: 105px;
+}
+
+.date{
+    width: 120px;
+}
+
+.date-exp1{
+    margin-top: 60px;
+}
+
+.date-exp2{
+    margin-top: 80px;
+}
+
+.date-exp3{
+    margin-top: 75px;
+}
+
+.date-exp4{
+    margin-top: 85px;
+}
+
 .container-exp{
     margin-left: 100px;
 }
@@ -139,25 +185,6 @@ section{
     margin-top: 55px;
 }
 
-.date{
-    width: 120px;
-}
-
-.date-exp1{
-    margin-top: 60px;
-}
-
-.date-exp2{
-    margin-top: 80px;
-}
-
-.date-exp3{
-    margin-top: 75px;
-}
-
-.date-exp4{
-    margin-top: 85px;
-}
 .liseret{
     outline-style: solid;
     color: antiquewhite;
