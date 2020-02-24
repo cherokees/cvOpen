@@ -224,91 +224,76 @@ section{
 }
 
 @media screen and (max-width:1100px){
-    body {
+    body{
         display: flex;
-       flex-direction: column; 
-    }
-
-
-    .nav{
-        display: flex;
-        width: auto;
-    }
-
-    .contact p{
-        line-height: 15px;
-        font-size: 20px;
-    }
-
-    .propos{
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 20px;
-    }
-
-    .icones{
-        font-size: 40px;
-    }
-
-    h1{
-        font-size: 40px;
-    }
-
-    h2{
-        font-size: 40px;
-    }
-
-    .nav h2{
-        width: auto;
-    }
-
-    a{
-        display: none;
-    }
-
-    .nav p{
-        text-align: left;
-        margin-left: auto;
-        padding-top: 0px;
-        width: auto;
-    }
-
-    header {
-        height: 250px;
+        flex-direction: column;
         width: 100%;
-        display: flex;
+    }
+    .nav{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:360px){
+    body{
+        display: block;
+    }
+    .container{
+        width: 100%;
     }
     section{
-        margin-top: 25%;
-        width: auto;
-        margin-left: 4%;
+        margin-left: 10%;
     }
-
-    .container-niv p{
-        line-height: 25px;
-        font-size: 15px;
+    .icone-niv{
+        margin-left: -20px;
     }
-
-    .container-niv h3{
-        font-size: 40px;
+    .icone-niv2{
+        margin-top: 180px;
     }
-
-    .date-niv p{
-        font-size: 20px;
+    .date-niv{
+        padding-right: 5%;
     }
-
+    .date-niv2{
+        margin-top: 160px;
+    }
+    .container-niv{
+        margin-left: auto;
+    }
+    .niv2{
+        margin-top: auto;
+    }
+    .container-exp{
+        margin-left: auto;
+    }
     .date{
-        font-size: 20px;
+        padding-right: 5%;
     }
-
-    .date p{
-        font-size: 40px;
+    .icone-exp{
+        margin-left: -20px;
     }
-
-    .container-exp h3{
-        font-size: 40px;
+    .icone-exp1{
+        margin-top: 60px;
     }
-
-    .container h3{
-        font-size: 40px;
+    .icone-exp2{
+        margin-top: 185px;
     }
+    .icone-exp3{
+        margin-top: 225px;
+    }
+    .icone-exp4{
+        margin-top: 200px;
+    }
+    .date-exp1{
+        margin-top: 60px;
+    }
+    .date-exp2{
+        margin-top: 145px;
+    }
+    .date-exp3{
+        margin-top: 190px;
+    }
+    .date-exp4{
+        margin-top: 200px;
+    }
+}
