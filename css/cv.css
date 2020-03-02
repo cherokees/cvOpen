@@ -1,5 +1,9 @@
+
 body{
     font-family: "Roboto", "sans-serif" ;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
 }
 header{
     display: none;
@@ -15,11 +19,11 @@ p span{
     text-decoration: underline antiquewhite;
 }
 .fonction{
-    text-align: left;
     margin-top: -20px;
     font-size: 25px;
+    margin-bottom: 13%;
 }
-h2{
+.titre-exp{
     margin-left: -30px;
     font-size: 30px;
 }
@@ -30,31 +34,38 @@ h2 i{
 }
 h3{
     text-align: left;
-    display: flex;
-    flex-direction: column;
     font-size: 25px;
 }
 .place{
     font-size: large;
 }
-.nav h2{
+.titre-marge{
     background-color: rgb(255, 0, 242);
-    margin-left: -30px;
-    width: 380px;
+    width: 100%;
     text-align: center;
     color: antiquewhite;
 }
-body {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-}
-.nav{
+.marge{
     flex-direction: column;
-    display: flex;
-    height: 100%;
     width: 350px;
     background-color: antiquewhite;
+}
+.image{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+}
+.lord_boros{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.marge p{
+    margin-left: 30px;
+    margin-right: 20px;
+    line-height: 2;
+    padding-top: 5px;
 }
 .icones{
     text-align: center;
@@ -67,155 +78,50 @@ body {
     padding: 10px;
 }
 
-nav p{
-    margin-left: 30px;
-    margin-right: 20px;
-    line-height: 2;
-    padding-top: 5px;
-}
-
 section{
-    display: flex;
-    margin-left: 100px;
-    flex-direction: column    
+    margin-left: 5%;  
 }
-
-.container-for{
-    width: 800px;
-    display: flex;    
-}
-.container-pro{
-    width: 800px;
-    display: flex; 
-}
-.container-rcmd{
-    width: 800px;
-    display: flex; 
-    justify-content: space-between;
-}
-.icone-niv {
-    display:flex ;
-    flex-direction: column;
-    margin-right: 30px;
-}
-
-.icone-niv1{
-    margin-top: 70px;
-    font-size: 5px;
-    border-radius: 50%;
-    border: antiquewhite 2px solid;
-    padding: 5px;
-    color: antiquewhite;
-}
-
-.icone-niv2{
-    margin-top: 170px;
-    color: antiquewhite;
-}
-
-.date-niv{
-    width: 100px;
-}
-
-.date-niv1{
-    margin-top: 70px;
-}
-
-.date-niv2{
-    margin-top: 150px;
-}
-
-.container-niv{
-    margin-left: 100px;
-}
-
-.niv1{
-    margin-top: 60px;
-}
-
-.niv2{
-    margin-top: 80px;
-}
-
-.icone-exp{
-    margin-right: 30px;
-    color: antiquewhite;
-}
-
-.icone-exp1{
-    margin-top: 60px;
-    font-size: 5px;
-    border-radius: 50%;
-    border: antiquewhite 2px solid;
-    padding: 5px;
-    color: antiquewhite;
-}
-
-.icone-exp2{
-    margin-top: 155px;
-}
-
-.icone-exp3{
-    margin-top: 155px;
-}
-
-.icone-exp4{
-    margin-top: 165px;
-}
-
-.date{
-    width: 160px;
-}
-
-.date-exp1{
-    margin-top: 60px;
-}
-
-.date-exp2{
-    margin-top: 135px;
-}
-
-.date-exp3{
-    margin-top: 135px;
-}
-
-.date-exp4{
-    margin-top: 150px;
-}
-
 .container-exp{
-    margin-left: 80px;
+    display: flex;
 }
 
-.expPro1{
-    margin-top: 55px ;
+.icone-cnt{
+    margin: 5%;
+    color: antiquewhite;
+    margin-left: -4%;
+    margin-right: 2%;
 }
-
-.expPro2{
-    margin-top: 55px;
+.icone-cnt1{
+    margin: 5%;
+    color: antiquewhite;
+    font-size: 5px;
+    border-radius: 50%;
+    border: antiquewhite 2px solid;
+    padding: 5px;
+    height: 8%;
+    margin-left: -4%;
+    margin-right: 2%;
 }
+.date{
+    margin-top: 3%;
+    width: 15%;
+    line-height: 1.2px;
 
-.expPro3{
-    margin-top: 50px;
 }
-
-.expPro4{
-    margin-top: 55px;
+.txt{
+    margin-left: 20%;
+    width: 50%;
+    margin-top: 1%;
 }
-
 .liseret{
     outline-style: solid;
     color: antiquewhite;
-    margin-left: -30px;   
+    margin-left: -30px;
+    margin-bottom: 2%;   
 }
-
-.lord_boros{
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    margin-left: 60px;
-    margin-top: 50px; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+.container-rcmd{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width:1100px){
@@ -223,105 +129,96 @@ section{
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin: auto;
     }
-    .nav{
+
+    header{
+        background-color: antiquewhite;
+        display: block;
+    }
+    .titre-prcpl p{
+        text-align: center;
+        font-size: 30px;
+    }
+    h1{
+        text-align: center;
+    }
+    .titre-exp{
+        font-size: 25px;
+        width: 100%;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .prnm-titre{
+        color: rgb(255, 0, 242);
+    }
+    .fctn-titre{
+        text-decoration: underline rgb(255, 0, 242);
+    }
+    .en-tete{
+        display: none;
+    }
+    .container-niv{
+        margin: auto;
+    }
+    .marge{
         width: 100%;
         text-align: center;
     }
-    .nav h2{
+    .image{
+        margin: auto;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .marge h2{
         width:100%;
+        margin: auto;
+    }
+    .titre-exp{
+        margin: auto;
+    }
+    .container-rcmd{
+        flex-direction: column;
+    }
+    .liseret{
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width:500px){ 
+
+    .container-exp{
+        display: flex;
+        flex-direction: column;
+    }
+    .icone-cnt{
+        display: none;
+    }
+    .icone-cnt1{
+        display: none;
+    }   
+    .date{
+        text-align: center;
+        width: auto;
+        border: 2px antiquewhite solid;
+        margin: auto;
+        padding-right: 30%;
+        padding-left: 30%;
+        margin-top: 5%;
+    }
+    .txt{
+        width: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .titre-exp{
         margin: auto;
     }
 }
 
-@media screen and (max-width:360px){
-    header{
-        display: block;
-        background-color: antiquewhite;
-        font-size: 30px;
-        text-align: center;
-    } 
-    .titre-principale{
-        font-size: 35px;
-        text-align: center;
-    }
-
-    h1{
+@media screen and (max-width:320px){
+    .titre-exp i{
         display: none;
-    }
-    .fonction{
-        display: none;
-    }
-    .lord_boros{
-        margin: auto;
-        margin-bottom: 20px;
-    }
-    .nav h2{
-        width:100%;
-        margin: auto;
-    }
-    .container-pro{
-        width: 100%;
-    }
-    .container-for{
-        width: 100%;
-    }
-    .container-rcmd{
-        width: 100%;
-        flex-direction: column;
-    }
-    section{
-        margin-left: 10%;
-    }
-    .icone-niv{
-        margin-left: -20px;
-    }
-    .icone-niv2{
-        margin-top: 180px;
-    }
-    .date-niv{
-        padding-right: 5%;
-    }
-    .date-niv2{
-        margin-top: 160px;
-    }
-    .container-niv{
-        margin-left: auto;
-    }
-    .niv2{
-        margin-top: auto;
-    }
-    .container-exp{
-        margin-left: auto;
-    }
-    .date{
-        padding-right: 5%;
-    }
-    .icone-exp{
-        margin-left: -20px;
-    }
-    .icone-exp1{
-        margin-top: 60px;
-    }
-    .icone-exp2{
-        margin-top: 185px;
-    }
-    .icone-exp3{
-        margin-top: 225px;
-    }
-    .icone-exp4{
-        margin-top: 200px;
-    }
-    .date-exp1{
-        margin-top: 60px;
-    }
-    .date-exp2{
-        margin-top: 145px;
-    }
-    .date-exp3{
-        margin-top: 190px;
-    }
-    .date-exp4{
-        margin-top: 200px;
     }
 }
