@@ -75,6 +75,18 @@ h3{
     line-height: 2;
     padding-top: 5px;
 }
+
+.competences h2{
+    background-color: #5C258D;
+    width: 100%;
+    text-align: center;
+    color: #dae2f8;
+}
+
+.competences li{
+    margin: 5px;
+}
+
 .icones{
     text-align: center;
     font-size: 50px;
@@ -188,6 +200,12 @@ section{
     .marge h2{
         width:100%;
         margin: auto;
+    }
+    ul{
+        padding-left: 0;
+    }
+    li{
+        list-style: none;
     }
     .titre-exp{
         margin: auto;
