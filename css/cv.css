@@ -15,10 +15,11 @@ h1{
     font-size: 60px;
 }
 h1 span{
-    color: antiquewhite;
+    color:#5C258D;
 }
 p span{
-    text-decoration: underline antiquewhite;
+    text-decoration: underline #dae2f8
+;
 }
 .fonction{
     margin-top: -20px;
@@ -32,7 +33,8 @@ p span{
 h2 i{
     padding-right: 25px;
     font-size: 35px;
-    color: antiquewhite;
+    color: #dae2f8
+;
 }
 h3{
     text-align: left;
@@ -42,22 +44,26 @@ h3{
     font-size: large;
 }
 .titre-marge{
-    background-color: rgb(255, 0, 242);
+    background-color:#5C258D;
     width: 100%;
     text-align: center;
-    color: antiquewhite;
+    color: #dae2f8
+;
 }
 .marge{
     flex-direction: column;
     width: 350px;
-    background-color: antiquewhite;
+    /* background-color: rgb(250, 235, 215); */
+    background-color: #dae2f8;
 }
+
 .image{
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 20%;
 }
-.lord_boros{
+.photoProfil{
+    object-fit: cover;
     width: 200px;
     height: 200px;
     border-radius: 100px;
@@ -89,16 +95,19 @@ section{
 
 .icone-cnt{
     margin: 5%;
-    color: antiquewhite;
+    color: #dae2f8
+;
     margin-left: -4%;
     margin-right: 2%;
 }
 .icone-cnt1{
     margin: 5%;
-    color: antiquewhite;
+    color: #dae2f8
+;
     font-size: 5px;
     border-radius: 50%;
-    border: antiquewhite 2px solid;
+    border: #dae2f8
+ 2px solid;
     padding: 5px;
     height: 8%;
     margin-left: -4%;
@@ -118,7 +127,8 @@ section{
 }
 .liseret{
     outline-style: solid;
-    color: antiquewhite;
+    color: #dae2f8
+;
     margin-left: -30px;
     margin-bottom: 2%;   
 }
@@ -136,7 +146,8 @@ section{
     }
 
     header{
-        background-color: antiquewhite;
+        background-color: #dae2f8
+;
         display: block;
     }
     .titre-prcpl p{
@@ -205,7 +216,8 @@ section{
     .date{
         text-align: center;
         width: auto;
-        border: 2px antiquewhite solid;
+        border: 2px #dae2f8
+ solid;
         margin: auto;
         padding-right: 30%;
         padding-left: 30%;
