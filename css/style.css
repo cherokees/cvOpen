@@ -1,0 +1,297 @@
+body {
+  font-family: "Roboto", "sans-serif";
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  margin: auto;
+  max-width: 1400px;
+}
+@media screen and (max-width: 1100px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+}
+body .marge {
+  flex-direction: column;
+  width: 350px;
+  background-color: #dae2f8;
+}
+@media screen and (max-width: 1100px) {
+  body .marge {
+    width: 100%;
+    text-align: center;
+  }
+}
+body .marge .image {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+}
+@media screen and (max-width: 1100px) {
+  body .marge .image {
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+}
+body .marge .image .photoProfil {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+body .marge .contact .titre-marge {
+  background-color: #5C258D;
+  width: 100%;
+  text-align: center;
+  color: #dae2f8;
+}
+body .marge .contact p {
+  margin-left: 30px;
+  margin-right: 20px;
+  line-height: 2;
+  padding-top: 5px;
+}
+body .marge .propos .titre-marge {
+  background-color: #5C258D;
+  width: 100%;
+  text-align: center;
+  color: #dae2f8;
+}
+body .marge .propos p {
+  margin-left: 30px;
+  margin-right: 20px;
+  line-height: 2;
+  padding-top: 5px;
+}
+body .marge .competences h2 {
+  background-color: #5C258D;
+  width: 100%;
+  text-align: center;
+  color: #dae2f8;
+}
+@media screen and (max-width: 1100px) {
+  body .marge .competences h2 {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1100px) {
+  body .marge .competences ul {
+    padding-left: 0;
+  }
+}
+body .marge .competences ul li {
+  margin: 5px;
+}
+@media screen and (max-width: 1100px) {
+  body .marge .competences ul li {
+    list-style: none;
+  }
+}
+body .marge .loisirs h2 {
+  background-color: #5C258D;
+  width: 100%;
+  text-align: center;
+  color: #dae2f8;
+}
+body .marge .loisirs .icones {
+  text-align: center;
+  font-size: 50px;
+}
+body .marge .loisirs .icones i {
+  border-radius: 50%;
+  border: solid black 2px;
+  margin: 10px;
+  padding: 10px;
+}
+body section {
+  margin-left: 5%;
+}
+@media screen and (max-width: 1100px) {
+  body section .en-tete {
+    display: none;
+  }
+}
+body section .en-tete h1 {
+  text-align: center;
+}
+body section .en-tete .fonction {
+  margin-top: -20px;
+  font-size: 25px;
+  margin-bottom: 13%;
+}
+body section .titre-exp {
+  margin-left: -30px;
+  font-size: 30px;
+}
+@media screen and (max-width: 1100px) {
+  body section .titre-exp {
+    font-size: 25px;
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  body section .titre-exp {
+    margin: auto;
+  }
+}
+body section .titre-exp i {
+  padding-right: 25px;
+  font-size: 35px;
+  color: #dae2f8;
+}
+@media screen and (max-width: 320px) {
+  body section .titre-exp i {
+    display: none;
+  }
+}
+body section .liseret {
+  outline-style: solid;
+  color: #dae2f8;
+  margin-left: -30px;
+  margin-bottom: 2%;
+}
+@media screen and (max-width: 1100px) {
+  body section .liseret {
+    margin-top: 2%;
+  }
+}
+body section .container-for .container-exp {
+  display: flex;
+}
+@media screen and (max-width: 500px) {
+  body section .container-for .container-exp {
+    display: flex;
+    flex-direction: column;
+  }
+}
+body section .container-for .container-exp .icone-cnt1 {
+  margin: 5%;
+  color: #dae2f8;
+  font-size: 5px;
+  border-radius: 50%;
+  border: #dae2f8 2px solid;
+  padding: 5px;
+  height: 8%;
+  margin-left: -4%;
+  margin-right: 2%;
+}
+body section .container-for .container-exp .icone-cnt {
+  margin: 5%;
+  color: #dae2f8;
+  margin-left: -4%;
+  margin-right: 2%;
+}
+@media screen and (max-width: 500px) {
+  body section .container-for .container-exp .icone-cnt {
+    display: none;
+  }
+}
+body section .container-for .container-exp .date {
+  margin-top: 3%;
+  width: 15%;
+  min-width: 90px;
+  line-height: 1.2px;
+}
+@media screen and (max-width: 500px) {
+  body section .container-for .container-exp .date {
+    text-align: center;
+    width: auto;
+    border: 2px #dae2f8 solid;
+    margin: auto;
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-top: 5%;
+  }
+}
+body section .container-for .container-exp .txt {
+  margin-left: 20%;
+  width: 50%;
+  margin-top: 1%;
+}
+@media screen and (max-width: 500px) {
+  body section .container-for .container-exp .txt {
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+body section .container-for .container-exp .txt .place {
+  font-size: large;
+}
+body section .container-for .container-exp .txt h3 {
+  text-align: left;
+  font-size: 25px;
+}
+@media screen and (max-width: 1100px) {
+  body section .container-for .container-exp .txt h3 {
+    font-size: 20px;
+  }
+}
+body section .container-pro .container-exp {
+  display: flex;
+}
+body section .container-pro .container-exp .icone-cnt1 {
+  margin: 5%;
+  color: #dae2f8;
+  font-size: 5px;
+  border-radius: 50%;
+  border: #dae2f8 2px solid;
+  padding: 5px;
+  height: 8%;
+  margin-left: -4%;
+  margin-right: 2%;
+}
+@media screen and (max-width: 500px) {
+  body section .container-pro .container-exp .icone-cnt1 {
+    display: none;
+  }
+}
+body section .container-pro .container-exp .icone-cnt {
+  margin: 5%;
+  color: #dae2f8;
+  margin-left: -4%;
+  margin-right: 2%;
+}
+body section .container-pro .container-exp .date {
+  margin-top: 3%;
+  width: 15%;
+  min-width: 90px;
+  line-height: 1.2px;
+}
+body section .container-pro .container-exp .txt {
+  margin-left: 20%;
+  width: 50%;
+  margin-top: 1%;
+}
+@media screen and (max-width: 500px) {
+  body section .container-pro .container-exp .txt {
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+body section .container-pro .container-exp .txt .place {
+  font-size: large;
+}
+body section .container-pro .container-exp .txt h3 {
+  text-align: left;
+  font-size: 25px;
+}
+body section .container-rcmd {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 600px) {
+  body section .container-rcmd {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
